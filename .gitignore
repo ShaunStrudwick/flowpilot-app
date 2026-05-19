@@ -1,0 +1,39 @@
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Flutter build
+/build/
+/lib/generated_plugin_registrant.dart
+
+# Flutter pubspec lock file
+pubspec.lock
+
+# Android build files
+/android/.gradle/
+/android/local.properties
+/android/GeneratedPluginRegistrant.java
+
+# iOS build files
+/ios/.symlinks/
+/ios/.generated/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/Podfile.lock
+
+# XCode native build output
+/ios/Flutter/Generated.xcconfig
+/ios/flutter_export_environment.sh
+/ios/.dart_tool/
+
+# Coverage
+coverage/
+
+# Exceptions to above rules
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
